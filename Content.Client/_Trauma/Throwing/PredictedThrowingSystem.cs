@@ -8,7 +8,7 @@ using Robust.Shared.Timing;
 namespace Content.Client._Trauma.Throwing;
 
 /// <summary>
-/// Lets thrown items' physics be predicted.
+/// Lets thrown items' and projectiles physics be predicted.
 /// </summary>
 public sealed class PredictedThrowingSystem : EntitySystem
 {
