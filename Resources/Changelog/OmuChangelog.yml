@@ -8977,3 +8977,53 @@ Entries:
         the guidebook!
   id: 1162
   time: '2026-10-12T21:06:41.0000000+00:00'
+- author: feistyfedora
+  changes:
+    - type: Fix
+      message: Fixed tram driver gloves replacing their hat.
+  id: 1163
+  time: '2026-10-13T11:31:24.0000000+00:00'
+- author: nazulinnn
+  changes:
+    - type: Add
+      message: >-
+        The Nanotrasen Representative Handheld Fax, CentComm Official and
+        CentComm Intern Handheld Fax can now print business cards. The NTR and
+        Interns get their own business cards to differentiate from the CentComm
+        business card.
+  id: 1164
+  time: '2026-10-13T13:19:13.0000000+00:00'
+- author: raincall
+  changes:
+    - type: Tweak
+      message: >-
+        Valyrian Standard replaced with Avatel Vulu. Another morsel of lore for
+        you omunians...
+  id: 1165
+  time: '2026-10-13T14:46:05.0000000+00:00'
+- author: Raincall
+  changes:
+    - type: Add
+      message: >-
+        Added a brief summary of omu lore to the guidebook. More to come in the
+        future. Also the year is 2854 confirmed
+  id: 1166
+  time: '2026-10-13T17:21:25.0000000+00:00'
+- author: Duuckie
+  changes:
+    - type: Fix
+      message: >-
+        The rules now inform players how to find the rules after agreeing to
+        them.
+  id: 1167
+  time: '2026-10-13T21:13:46.0000000+00:00'
+- author: Natch
+  changes:
+    - type: Add
+      message: >-
+        Added Baaveltine, a noise chem made from 1 goat milk, 1 barozine, 2
+        flour.
+    - type: Add
+      message: Baaveltine can now turn up in random maintenance pills or chem anoms.
+  id: 1168
+  time: '2026-10-13T23:01:04.0000000+00:00'
