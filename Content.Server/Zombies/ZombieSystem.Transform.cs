@@ -89,6 +89,7 @@ public sealed partial class ZombieSystem
 
     private static readonly ProtoId<TagPrototype> InvalidForGlobalSpawnSpellTag = "InvalidForGlobalSpawnSpell";
     private static readonly ProtoId<TagPrototype> CannotSuicideTag = "CannotSuicide";
+    private static readonly ProtoId<TagPrototype> ZombieTag = "Zombie";
     private static readonly ProtoId<NpcFactionPrototype> ZombieFaction = "Zombie";
     private static readonly string MindRoleZombie = "MindRoleZombie";
     private static readonly List<ProtoId<AntagPrototype>> BannableZombiePrototypes = ["Zombie"];
@@ -377,6 +378,7 @@ public sealed partial class ZombieSystem
         // Also prevents them from becoming a Survivor. They're undead.
         _tag.AddTag(target, InvalidForGlobalSpawnSpellTag);
         _tag.AddTag(target, CannotSuicideTag);
+        _tag.AddTag(target, ZombieTag); //omu - for reagent to check if zombie
 
         if (TryComp<MechPilotComponent>(target, out var mechPilotComponent)) // Goobstation - kick out zombies from mechs on conversion
             _mech.TryEject(mechPilotComponent.Mech, null, target);
